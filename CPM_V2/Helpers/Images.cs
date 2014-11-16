@@ -61,7 +61,7 @@ namespace CPM.Helpers
 						}
 
 						Rectangle rectangele = new Rectangle(x, y, width, HeightY);
-						g.FillRectangle(Brushes.Cyan, rectangele);
+						g.FillRectangle(Brushes.BurlyWood, rectangele);
 						g.DrawString(vertex.Name, _defaultFont, Brushes.Black, rectangele);
 						g.DrawRectangle(Pens.Black, rectangele);
 
